@@ -6,3 +6,7 @@ function mudar() {
     document.getElementById("titulo")
     document.getElementById("titulo").innerHTML = novo.value;
 }
+
+function trocar(cor) {
+    document.body.style.background = cor;
+}
